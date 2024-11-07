@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	24.08.2
+%define		kdeappsver	24.08.3
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kaccounts-providers
 Summary:	KAccounts Providers
 Name:		ka6-%{kaname}
-Version:	24.08.2
-Release:	2
+Version:	24.08.3
+Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	1e74d92048e6f800bbd95558ee381891
+# Source0-md5:	2bef4c20fbb473a505fceb5bbf6db8ca
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	cmake >= 3.20
