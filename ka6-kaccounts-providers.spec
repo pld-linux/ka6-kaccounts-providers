@@ -32,7 +32,10 @@ Obsoletes:	ka5-%{kaname} < %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-KDE Accounts Providers.
+Online account providers for the KAccounts system.
+
+%description -l pl.UTF-8
+Dostawcy kont online dla podsystemu KAccounts KDE.
 
 %prep
 %setup -q -n %{kaname}-%{version}
